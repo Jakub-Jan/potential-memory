@@ -10,8 +10,11 @@
     border: 1px solid red;
 }
 
+
+/* Pro telefony */
+
 [class*="col-"] {
-    width: 100%;
+    width: 91.66%;
 }
 
 @media only screen and (min-width: 768px) {
@@ -52,6 +55,12 @@
     .col-12 {
         width: 100%;
     }
+    nav ul li {
+        float: left;
+    }
+    nav ul li a {
+        display: block;
+    }
 }
 
 html {
@@ -74,11 +83,11 @@ nav ul {
 
 nav ul li a {
     text-decoration: none;
-    display: block;
+    /* display: block; */
 }
 
 nav ul li {
-    float: left;
+    /* float: left; */
     text-align: center;
     padding: 8px;
     margin-bottom: 7px;
