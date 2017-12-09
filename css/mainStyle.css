@@ -75,12 +75,24 @@ main select article p{
     background-color: yellow;
     width: 60%;
 }
+footer {
+    clear: both;
+    background-color: magenta;
+}
 
 
-/* pro tablety */
+/* pro mobily na landscape a male tablety */
 @media only screen and (min-width: 540px) {
 * {
     color: violet;
+}
+nav ul {
+    text-align: center;
+}
+nav ul li {
+    display: inline-block;
+    width: 18%;
+    min-width: 80px;
 }
 }
 
@@ -88,5 +100,21 @@ main select article p{
 @media only screen and (min-width: 767px) {
 * {
     color: yellow;
+}
+nav ul li {
+    width: 
+}
+main {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+    background-color: brown;
+}
+main section {
+    text-align: left;
+    display: inline-block;
+    width: 40%;
+    margin-bottom: 2em;
 }
 }
