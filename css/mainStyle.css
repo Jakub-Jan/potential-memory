@@ -65,8 +65,8 @@ main section {
 }
 main section h2{
     font-size: 2em;
-    padding: 2% 0 0 6%;
     margin: 0;
+    padding: 0.75em 0 0 0.2em;
     color:#CCCCCC;
 }
 main section article {
@@ -129,6 +129,9 @@ main section {
     text-align: left;
     /*display: inline-block;
     width: 40%; */
+}
+main section h2{
+    padding: 0.75em 0 0 4%;
 }
 main section article
 {
