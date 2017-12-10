@@ -113,6 +113,9 @@ main section article a{
 main section article p{
     font-size: 1em;
 }
+main section article p img {
+    max-width: 100%;
+}
 .videoDiv {
     text-align: center;
     width: 100%;
