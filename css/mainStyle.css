@@ -96,7 +96,6 @@ footer {
 
 /* pro mobily na landscape a male tablety */
 @media only screen and (min-width: 540px) {
-
 nav ul {
     text-align: center;
 }
@@ -109,7 +108,10 @@ nav ul li {
 
 /* pro pc */
 @media only screen and (min-width: 767px) {
+<<<<<<< HEAD
 
+=======
+>>>>>>> 96eb048477ac0907c961ac5a5b3a6277ab3e43f1
 main {
     text-align: center;
     margin-right: auto;
@@ -119,7 +121,13 @@ main {
 }
 main section {
     text-align: left;
+    /*display: inline-block;
+    width: 40%; */
+}
+main section article
+{
     display: inline-block;
-    width: 40%;
+    width: 43%;
+    margin-left: 5%;
 }
 }
