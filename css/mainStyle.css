@@ -75,7 +75,15 @@ main section article {
     padding-bottom: 0.3em;
     width: 95%;
     font-size: 1em;
-    
+}
+main section article h3
+{
+    font-size: 1.25em;
+    color: #C2C09F;
+
+}
+main section article a{
+    text-decoration: none;
 }
 main section article p{
     font-size: 1em;
