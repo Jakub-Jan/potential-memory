@@ -91,7 +91,10 @@ main section article a{
 main section article p{
     font-size: 1em;
 }
-
+.videoDiv {
+    text-align: center;
+    width: 100%;
+}
 main section article video{
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     max-height: 300px;
@@ -111,6 +114,15 @@ main section a div{
 }
 main section a div:hover{
     background-color: #222222;
+}
+main section p a{
+    color: #C2C09F;
+    font-size: 1em;
+    text-decoration: none;
+}
+.autori {
+    font-size: 1.3em;
+    padding-left: 4em;
 }
 footer {
     clear: both;
