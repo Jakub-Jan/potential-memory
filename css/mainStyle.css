@@ -88,6 +88,10 @@ main section article a{
 main section article p{
     font-size: 1em;
 }
+
+main section article iframe{
+    width: 100%;
+}
 main section a{
     font-size: 1.25em;
     text-decoration: none;
