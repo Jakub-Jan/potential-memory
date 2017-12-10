@@ -1,4 +1,7 @@
 /* pro mobily */
+* {
+    box-sizing: border-box;
+}
 body {
     background-color: #222222;
     color: #C2C09F;
@@ -120,17 +123,22 @@ footer {
 .column {
     float: left;
     width: 25%;
-    padding: 0;
+    
+    padding-left: 2px;
+    padding-right: 2px;
 }
 
 .column img {
-    width:100%
+    width:100%;
+    
 }
 
 
 .row {
     width: 100%;
-    
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-top: 20px;
 }
 
 /* Clear floats after the columns */
@@ -186,8 +194,7 @@ main section article
 @media (max-width: 767px) {
     .column {
         width: 50%;
-        padding-left: 0;
-        padding-right: 0;
+        
     }
 }
 
@@ -195,8 +202,7 @@ main section article
 @media (max-width: 540px) {
     .column {
         width: 100%;
-        padding-left: 0;
-        padding-right: 0;
+        
         
     }
 }
