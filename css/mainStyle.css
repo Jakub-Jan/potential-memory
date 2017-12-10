@@ -133,7 +133,24 @@ footer {
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
 
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #222222;
+}
 
+th {
+    background-color: #222222;
+}
+
+td, th {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #404040;
+}
 
 /* Create four equal columns that floats next to each other */
 .column {
