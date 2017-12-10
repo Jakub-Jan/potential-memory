@@ -89,6 +89,9 @@ main section article p{
     font-size: 1em;
 }
 
+main section article video{
+    width: 100%;
+}
 main section article iframe{
     width: 100%;
 }
