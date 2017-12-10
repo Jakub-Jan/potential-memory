@@ -80,6 +80,21 @@ main section article {
 main section article p{
     font-size: 1em;
 }
+main section a{
+    font-size: 1.25em;
+    text-decoration: none;
+}
+main section a div{
+    text-align: center;
+    clear: both;
+    width: 100%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    color:#CCCCCC;
+}
+main section a div:hover{
+    background-color: #222222;
+}
 footer {
     clear: both;
     background-color: #303030;
