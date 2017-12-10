@@ -83,10 +83,8 @@ main section article {
     font-size: 1em;
     
 }
-main select article p{
-    font-size: 5em;
-    background-color: yellow;
-    width: 60%;
+main section article p{
+    font-size: 1em;
 }
 footer {
     clear: both;
@@ -108,10 +106,6 @@ nav ul li {
 
 /* pro pc */
 @media only screen and (min-width: 767px) {
-<<<<<<< HEAD
-
-=======
->>>>>>> 96eb048477ac0907c961ac5a5b3a6277ab3e43f1
 main {
     text-align: center;
     margin-right: auto;
